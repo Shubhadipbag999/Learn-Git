@@ -6,6 +6,6 @@ int main(){
     printf("\nEnter The Second Number: ");
     scanf("%d",&secondNumber);
     subtraction = firstNumber - secondNumber;
-    printf("\nSubtraction of Your Given Two Number= %d",subtraction);
+    printf("\nSubtraction of Your Given Two Number: %d",subtraction);
     return 0;
 }
