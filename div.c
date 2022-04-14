@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
-    int firstNumber,secondNumber,mul;
+    int firstNumber,secondNumber,div;
     printf("\nEnter The First Number: ");
     scanf("%d",&firstNumber);
     printf("\nEnter The Second Number: ");
     scanf("%d",&secondNumber);
-    mul = firstNumber * secondNumber;
-    printf("\nMultiplication of Your Given Two Number= %d",mul);
+    div = firstNumber / secondNumber;
+    printf("\ndivisionn of Your Given Two Number: %d",div);
     return 0;
 }
